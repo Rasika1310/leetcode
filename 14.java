@@ -1,8 +1,6 @@
 class Solution {
     public String longestCommonPrefix(String[] strs) {
         String ans="";
-        int x=0;
-        int y=1;
         for(int i=0;i<strs[0].length();i++)
         {
             for(int j=1;j<strs.length;j++)
